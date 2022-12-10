@@ -1,4 +1,4 @@
-% Compression and Decomopression Utility
+# Compression and Decomopression Utility
 
 Names:
 * Mariam ElGhobary
