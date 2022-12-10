@@ -394,15 +394,15 @@ void HUFFMAN(long long int ans, string File1, string File2)
             // cout << tc;
             out.put(tc);
         }
-        cout << "encoded message:\n"
-             << m << endl;
+        // cout << "encoded message:\n"
+        //      << m << endl;
         in.close();
         out.close();
 
-        cout << "using abugabal's:\n";
-        compression(File1, File2);
 
-        cout << "using khalil's:\n";
+        // compression(File1, File2);
+
+
         CalculateRatio(File1, File2, h_codes);
 
         unordered_map<char, long double> probs = propability(totalF, f);
@@ -497,7 +497,7 @@ unordered_map<char, long double> propability(int m, unordered_map<char, long lon
 {
     unordered_map<char, long double> probs(f.size());
 
-    cout << "message: " << m << endl;
+    // cout << "message: " << m << endl;
 
     for (auto i : f)
         probs[i.first] = (long double)(i.second) / (long double)(m);

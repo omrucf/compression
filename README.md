@@ -1,10 +1,10 @@
-#Compression and Decomopression Utility
+###Compression and Decomopression Utility###
 
 Names:
-Mariam ElGhobary
-Nour Abdalla
-Omar Yossuf
-Sarah Elsamanody
+* Mariam ElGhobary
+* Nour Abdalla
+* Omar Yossuf
+* Sarah Elsamanody
 
 The program starts by asking the user to choose from two options: compress or decompress.
 
